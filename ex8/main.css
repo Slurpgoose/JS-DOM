@@ -5,3 +5,43 @@
 #description, #search, #todo-list {
     font-size: 1.5em;
 }
+
+li {
+    width: 15vw;
+    list-style: none;
+	background-image: url('unchecked.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+    background-size: 30px;
+    background-origin: padding-box; 
+    padding-left: 35px;
+    margin: 1%;
+}
+
+li.active {
+    list-style: none;
+	background-image:  url('checked.png');
+	background-repeat: no-repeat;
+	background-position: left 0px top 0px;
+    background-size: 30px;
+    background-origin: padding-box; 
+    padding-left: 35px;
+    text-decoration:line-through
+}
+
+
+i {
+    font-size:25px;
+    color:grey;
+    float:right;
+}
+
+.warning {
+    background: yellow;
+    text-align: center;
+    visibility: hidden;
+}
+
+.warning.active {
+    visibility: visible;
+}

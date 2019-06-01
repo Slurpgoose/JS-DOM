@@ -4,15 +4,18 @@
 <head>
     <title>Exercise 8</title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    
 </head>
 
 <body>
     <div id="wrapper">
+        <div class="warning"><h1>Task Name is required</h1></div>
         <input id="description" type="text" name="description">
         <button id="add-button">Add Task</button>
         <ul id="todo-list">
-            <li>Feed the cat</li>
+            <li class="">Feed the cat<span><i class="fa fa-trash"></i></span></li>
         </ul>
     </div>
 </body>
